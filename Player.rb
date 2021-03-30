@@ -10,9 +10,3 @@ class Player
 		@lives_remaining -= 1
 	end
 end
-
-player1 = Player.new(1)
-puts player1.number
-puts player1.lives_remaining
-player1.lose_life
-puts player1.lives_remaining

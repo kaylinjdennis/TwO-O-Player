@@ -8,12 +8,3 @@ class Question
 		@answer = num1 + num2
 	end
 end
-
-
-q1 = Question.new
-puts q1.question
-puts q1.answer
-
-q2 = Question.new
-puts q2.question
-puts q2.answer
